@@ -14,7 +14,7 @@ section {
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: rgb(86, 81, 119);
+  background-color: rgb(185, 238, 86);
 }
 
 .App {
@@ -54,7 +54,7 @@ body {
   display: none;
 }
 
-@media only screen and (min-width: 325px) and (max-width: 450px) {
+@media only screen and (min-width: 320px) and (max-width: 450px) {
   /*Small smartphones [325px -> 425px]*/
   .nav-bar {
     position: fixed;

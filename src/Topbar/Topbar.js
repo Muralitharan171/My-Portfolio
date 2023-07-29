@@ -15,7 +15,7 @@ function Topbar(){
                 <i class="bi bi-list"></i>
             </div>
         </label>
-        <nav class='top-bar'>
+        <nav className='top-bar'>
             <a href="/" >Home</a>
             <a href="/About">About</a>
             <a href="/Skills">Skills</a>
