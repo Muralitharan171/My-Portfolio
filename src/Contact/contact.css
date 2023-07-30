@@ -42,7 +42,7 @@
     cursor: pointer;
   }
   .submit-btn:hover {
-    background-color: rgb(10, 10, 10);
+    background-color: rgb(226, 22, 22);
     border: none;
     color: rgb(247, 246, 246);
   }

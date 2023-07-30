@@ -1,6 +1,8 @@
 import React from "react";
 import "./Projectss.css";
-
+import weatherImage from "../Images/weather.png";
+import youtubeImage from "../Images/youtube clone.png";
+import portfolioImage from "../Images/portfolio.png";
 
 const Projectss = () => {
   return (
@@ -14,8 +16,8 @@ const Projectss = () => {
         
         
         <div className="project-content">
-          <h1>All countries Weather</h1>
-          <img src='#' alt="project-name" />
+        <h1>Countries & Weather</h1>
+          <img src={weatherImage} alt="project-name" />
           <div className="btn-group">
             <a
               href={"https://github.com/Muralitharan171/Rest-countries-and-wheather-task"}
@@ -35,10 +37,11 @@ const Projectss = () => {
             </a>
             
           </div>
+          
         </div>
         <div className="project-content">
-          <h1>Youtube-Clone</h1>
-          <img src='#' alt="project-name" />
+          <h1>Youtube Clone</h1>
+          <img src={youtubeImage} alt="project-name" />
           <div className="btn-group">
             <a
               href={"https://github.com/Muralitharan171/Youtube-clone"}
@@ -62,10 +65,10 @@ const Projectss = () => {
 
         <div className="project-content">
           <h1>Portfolio</h1>
-          <img src='#' alt="project-name" />
+          <img src={portfolioImage} alt="project-name" />
           <div className="btn-group">
             <a
-              href={"https://github.com/Muralitharan171/portfolio"}
+              href={"https://github.com/Muralitharan171/my-portfolio"}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-repo"
@@ -73,7 +76,7 @@ const Projectss = () => {
               Front-End Source code
             </a>
             <a
-              href={"https://warm-cheesecake-17404b.netlify.app/"}
+              href={"https://my-portfolio-558c.vercel.app/"}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-site"

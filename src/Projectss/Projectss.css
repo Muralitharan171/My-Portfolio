@@ -2,11 +2,11 @@
     max-height: 20vh;
   }
   .project-head>h1{
-    color:yellow;
+    color:rgb(250, 250, 248);
     font-size: 44px;
   }
   .project-head>h1:hover{
-    color:white;
+    color:rgb(8, 8, 8);
   }
   .project-head>p>span{
     color:white;
@@ -24,7 +24,7 @@
   }
   .project-content{
     display: inline-flex;
-  width:200px;
+  width:300px;
   height:250px;
     overflow: hidden;
    margin: 55px;
@@ -36,12 +36,19 @@
   }
   .project-content>h1{
    font-size: 100%;
+   position: relative;
+   left: 120px;
   }
   .project-content>img{
-    object-fit: cover;
-    width:80%;
-    height:40%; 
-   
+     /* object-fit: cover;  */
+    
+    width:100%;
+    height:70%; 
+    /* position: absolute;
+    width:140px;
+    height:130px; */
+    margin-top: 50px; 
+   align-items: start;
   }
   .project-content>img:hover{
   
