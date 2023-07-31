@@ -95,7 +95,7 @@
   }
   
   
-  @media only screen and (min-width:490px) and (max-width:726px){
+  @media only screen and (min-width:590px) and (max-width:726px){
     .project-content{
      width:150px;
      height:220px;
@@ -105,7 +105,7 @@
     }
   
   }
-  @media only screen and (min-width: 325px) and (max-width: 475px) {
+  @media only screen and (min-width: 325px) and (max-width: 585px) {
      
     .project-head>h1{
       color:yellow;
