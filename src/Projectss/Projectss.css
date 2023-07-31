@@ -117,16 +117,17 @@
       height:70vh;
     }
     .project-content{
-      width:40%;
-      height:30%;
+      width:60%;
+      height:60%;
       padding:4px;
      }
-    
      .btn-group > a {
        font-size: 50%;
      }
      .project-content > h1 {
-      font-size: 12px;
+      font-size: 6px;
+      position:relative;
+      right:120px;
     }
    
   
