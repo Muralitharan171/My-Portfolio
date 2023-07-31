@@ -2,6 +2,7 @@
     position: absolute;
     top: 25%;
     z-index: 1;
+    margin-top:80px;
     color: rgb(206, 248, 235);
   }
   .home-page > img {
@@ -60,7 +61,8 @@
     .home-page > img {
       width: 75%;
       height: 70%;
-      left: 0;
+     left:0;
+    
     }
     a {
       background-color: inherit;

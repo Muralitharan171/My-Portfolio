@@ -1,7 +1,6 @@
 import React from "react";
 import "./index.css";
  import homeImage from "../Images/photo.jpg";
-// import "animate.css";
 import gitImage from "../Images/gitIcon.png";
 import linkedInImage from "../Images/linkedinIcon.png";
 
@@ -16,7 +15,7 @@ const Home = () => {
         <h1 className="animate__animated animate__bounce   home-content">
           Full Stack Web Developer
         </h1>
-        <br />
+        <br /> 
         <a
           href={"https://github.com/Muralitharan171"}
           target="_blank"
