@@ -3,6 +3,8 @@ import "./Projectss.css";
 import weatherImage from "../Images/weather.png";
 import youtubeImage from "../Images/youtube clone.png";
 import portfolioImage from "../Images/portfolio.png";
+import auraImage from "../Images/aura.png";
+import capstoneImage from "../Images/capstone.png";
 
 const Projectss = () => {
   return (
@@ -64,11 +66,11 @@ const Projectss = () => {
         </div>
 
         <div className="project-content">
-          <h1>Youtube Clone</h1>
-          <img src={youtubeImage} alt="project-name" />
+          <h1>Aura air</h1>
+          <img src={auraImage} alt="project-name" />
           <div className="btn-group">
             <a
-              href={"https://github.com/Muralitharan171/Youtube-clone"}
+              href={"https://github.com/Muralitharan171/aura-air"}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-repo"
@@ -76,7 +78,7 @@ const Projectss = () => {
               Front-End Source code
             </a>
             <a
-              href={"https://warm-cheesecake-17404b.netlify.app/"}
+              href={"https://aura-air.vercel.app/"}
               target="_blank"
               rel="noopener noreferrer"
               className="btn-site"
@@ -86,8 +88,6 @@ const Projectss = () => {
             
           </div>
         </div>
-
-
 
         <div className="project-content">
           <h1>Portfolio</h1>
@@ -112,6 +112,43 @@ const Projectss = () => {
             
           </div>
         </div>
+
+        <div className="project-content">
+          <h1>capstone project</h1>
+          <img src={capstoneImage} alt="project-name" />
+          <div className="btn-group">
+            <a
+              href={"https://github.com/Muralitharan171/capstone-project-front-end"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-repo"
+            >
+              Front-End Source code
+            </a>
+            <a
+              href={"https://github.com/Muralitharan171/capstone-back-end"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-repo"
+            >
+              Back-End Source code
+            </a>
+
+            <a
+              href={"https://capstone-front-end-nu.vercel.app/"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-site"
+            >
+              Live Site
+            </a>
+            
+          </div>
+        </div>
+
+
+
+        
       </div>
     
   );
