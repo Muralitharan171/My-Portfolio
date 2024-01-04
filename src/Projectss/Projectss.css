@@ -97,7 +97,7 @@
   
   @media only screen and (min-width:590px) and (max-width:726px){
     .project-content{
-      width:60%;
+      width:80%;
       height:60%;
       padding:4px;
      }
@@ -126,8 +126,8 @@
       height:70vh;
     }
     .project-content{
-      width:60%;
-      height:60%;
+      width:70%;
+      height:100px;
       padding:4px;
      }
      .btn-group > a {
@@ -139,10 +139,11 @@
       right:120px;
     }
     .project-content>img{
-      width:100%;
-      height:70%; 
-      margin-top: 50px; 
-     align-items: start;
+      /* width:60%;
+      height:60%; 
+      margin-top: 40px; 
+     align-items: start; */
+     display:none;
     }
    
   
