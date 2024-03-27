@@ -33,7 +33,7 @@ const Home = () => {
         </a>
         <br />
         <button className="btn btn-resume">
-          <a href={"https://drive.google.com/file/d/1qLpDyyK6d87htnrylmv0yGUh_493k3rg/view"}
+          <a href={"https://drive.google.com/file/d/1txp5UrSGZTadMXTORB3vT8EjD-JaodQo/view?usp=drive_link"}
           target="_blank"
           rel="noopener noreferrer" 
           >
@@ -43,7 +43,9 @@ const Home = () => {
       </div>
 
       <div className="contact-logo"></div>
+      
       <img src={homeImage} alt="Home" />
+      
     </div>
   );
 };
