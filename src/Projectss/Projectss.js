@@ -18,7 +18,7 @@ const Projectss = () => {
         
         
         <div className="project-content">
-        <h1>Countries & Weather</h1>
+        <h1>Countries& Weather</h1>
           <img src={weatherImage} alt="project-name" />
           <div className="btn-group">
             <a
